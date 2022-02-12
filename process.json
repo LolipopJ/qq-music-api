@@ -1,0 +1,15 @@
+{
+	"apps": [
+			{
+					"name": "qq-music-api",
+					"script": "app.js",
+					"exec_mode": "fork",
+					"instances": 1,
+					"max_memory_restart": "300M",
+					"restart_delay": 10000,
+					"log_date_format": "YYYY-MM-DD HH:mm Z",
+					"error_file": "./logs/err.log",
+					"out_file": "./logs/out.log"
+			}
+	]
+}
